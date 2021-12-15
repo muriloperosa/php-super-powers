@@ -1,0 +1,18 @@
+{
+    "name": "murilo-perosa/super-powers",
+    "description": "My secret super-powers to develop with PHP.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MuriloPerosa\\SuperPowers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Murilo Perosa",
+            "email": "perosamurilo@gmail.com"
+        }
+    ],
+    "require": {}
+}
