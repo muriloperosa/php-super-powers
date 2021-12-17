@@ -1,4 +1,5 @@
 <?php
+
 namespace MuriloPerosa\SuperPowers;
 
 class Time {
