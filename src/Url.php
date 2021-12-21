@@ -23,7 +23,7 @@ class Url {
      * @param mixed $value
      * @return string
      */
-    public static function setParam(string $url, string $key, $value = null) : string
+    public static function setParam (string $url, string $key, $value = null) : string
     {
         $query = parse_url($url, PHP_URL_QUERY);
 

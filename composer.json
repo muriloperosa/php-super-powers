@@ -14,5 +14,7 @@
             "email": "perosamurilo@gmail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "pestphp/pest": "^1.21"
+    }
 }
