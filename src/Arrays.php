@@ -10,7 +10,7 @@ class Arrays {
      * @param array $array
      * @return array
      */
-    public static function uniqueRecursive ($array)
+    public static function uniqueRecursive ($array) : array
     {
         $result = array_map("unserialize", array_unique(array_map("serialize", $array)));
 
@@ -31,7 +31,7 @@ class Arrays {
      * @param  array $array
      * @return array
      */
-    public static function removeEmptyValues($array)
+    public static function removeEmptyValues ($array) : array
     {
         if (empty($array) || !is_array($array))
         {
